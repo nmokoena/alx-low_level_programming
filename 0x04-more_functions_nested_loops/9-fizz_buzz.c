@@ -13,19 +13,20 @@ int main(void)
 	int i;
 	char f[] = "Fizz";
 	char b[] = "Buzz";
-	char fb[] = "FizzBuzz"
-		for (i =  1; i <= 100; i++)
+	char fb[] = "FizzBuzz";
+
+		for (i = 1; i <= 100; i++;)
 		{
 			if (i == 100)
-			printf("%S", b);
+			printf("%s", b);
 			else if ((i % 3 == 0) && (i % 5 == 0))
-				printf("%S", fb);
+				printf("%s", fb);
 			else if (i % 3 == 0)
-				printf("%S", f);
+				printf("%s", f);
 			else if (i % 5 == 0)
-				printf("%S", b);
+				printf("%s", b);
 			else
-				printf("%S", i);
+				printf("%s", i);
 		}
 printf('\n');
 return (0);
