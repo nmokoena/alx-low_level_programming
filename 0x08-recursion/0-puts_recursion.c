@@ -1,8 +1,8 @@
 #include "main.h"
  /**
-  * _puts_recursion - function like puts();
+  * _puts_recursion - print the string in reverse
   * @s: input
-  * Return: Always 0
+  * Return: Always 0 (success)
   */
 void _puts_recursion(char *s)
 {
