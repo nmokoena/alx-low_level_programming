@@ -3,11 +3,10 @@
 #include <stdio.h>
 
 /**
- * argstostr - convert the params passed to the program to string
- * @ac: the argument count
- * @av: the argument vector
- *
- * return: ...
+ * argstostr - main entry
+ * @ac: int input
+ * @av: double pointer array
+ * Return: 0
  */
 char *argstostr(int ac, char **av)
 {
